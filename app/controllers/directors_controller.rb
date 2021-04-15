@@ -1,4 +1,4 @@
-class MoviesController < ApplicationController
+class DirectorsController < ApplicationController
   def new
     @movie = Movie.new
   end
